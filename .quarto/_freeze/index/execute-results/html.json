@@ -1,0 +1,15 @@
+{
+  "hash": "60a749b1256981e965846f7f7f3f13a4",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"NFL Combine Data\"\nauthor: Nathan Koshy\nexecute:\n  echo: false\n  warning: false\n  message: false\n---\n\n\nNFL stars typically have better combines than the average among the league. I used data taken from the nflverse dataset, along with wikipedia.org and nflsavant.com. The data was cleaned by finding the specific player and all their data, to compare NFL combines, with x being the player, and y being the value taken at the combine (measured by the measure used by the NFL). The data concluded most NFL stars that I collected data from have had better numbers than the league average in at least two of the three combine drills I used for my data, except safeties. who generally had worse combines than the league average.\n\n\n::: {.cell}\n\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

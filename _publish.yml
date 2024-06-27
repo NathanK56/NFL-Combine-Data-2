@@ -1,0 +1,4 @@
+- source: project
+  quarto-pub:
+    - id: 2f0a1e0a-c40c-4ee4-811c-b13ab7d12d92
+      url: 'https://nathan-k56.quarto.pub/nfl-combine-data'

@@ -1,0 +1,17 @@
+{
+  "hash": "46e4063dc97780eab67351c6581dcd57",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Cornerbacks\"\nexecute:\n  echo: false\n  warning: false\n  message: false\n---\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n::: {.cell-output-display}\n![](Cornerbacks_files/figure-html/unnamed-chunk-2-1.png){width=672}\n:::\n\n::: {.cell-output-display}\n![](Cornerbacks_files/figure-html/unnamed-chunk-2-2.png){width=672}\n:::\n\n::: {.cell-output-display}\n![](Cornerbacks_files/figure-html/unnamed-chunk-2-3.png){width=672}\n:::\n:::\n",
+    "supporting": [
+      "Cornerbacks_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

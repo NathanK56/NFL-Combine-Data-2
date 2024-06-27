@@ -1,0 +1,17 @@
+{
+  "hash": "2b63ee42c92764a51b1d4e11b3cb86ab",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Tight Ends\"\nexecute:\n  echo: false\n  warning: false\n  message: false\n---\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n::: {.cell-output-display}\n![](Tight-Ends_files/figure-html/unnamed-chunk-2-1.png){width=672}\n:::\n\n::: {.cell-output-display}\n![](Tight-Ends_files/figure-html/unnamed-chunk-2-2.png){width=672}\n:::\n\n::: {.cell-output-display}\n![](Tight-Ends_files/figure-html/unnamed-chunk-2-3.png){width=672}\n:::\n:::\n",
+    "supporting": [
+      "Tight-Ends_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

@@ -1,0 +1,48 @@
+---
+title: "NFL Combine Data"
+author: Nathan Koshy
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+NFL stars typically have better combines than the average among the league. I used data taken from the nflverse dataset, along with wikipedia.org and nflsavant.com. The data was cleaned by finding the specific player and all their data, to compare NFL combines, with x being the player, and y being the value taken at the combine (measured by the measure used by the NFL). The data concluded most NFL stars that I collected data from have had better numbers than the league average in at least two of the three combine drills I used for my data, except safeties. who generally had worse combines than the league average.
+
+```{r}
+library(leaflet)
+library(tidyverse)
+library(nflverse)
+library(ggplot2)
+tribble1 <- tribble(~position,~Player,~yarddash,~vertical,~bench,
+                    "Safety", "Antoine \nWinfield", 4.45, 36, NA,
+                    "Safety", "Kyle \nHamilton", 4.59, 38, NA,
+                    "Safety", "Jessie \nBates III", 4.5, 35.5, 12,
+                    "Safety", "Minkah \nFitzpatrick", 4.46, 33, 14,
+                    "Safety", "Marcus \nWilliams", 4.56, 33, 14,
+                    "Safety", "League \nAverage", 4.54, 36.22, 17.195,
+                    "Cornerback", "Sauce \nGardner", 4.41, NA, NA,
+                    "Cornerback", "Trent \nMcDuffie", 4.44, 38.5, 15,
+                    "Cornerback","Charavius \nWard", 4.44, 31, 12,
+                    "Cornerback","Pat \nSurtain II", 4.46, 39, 18,
+                    "Cornerback", "Jaylon \nJohnson", 4.5, 36.5, 15,
+                    "Cornerback", "League \nAverage", 4.48, 36.26, 14.94,
+                    "Wide Receiver", "Justin \nJefferson", 4.43, 37.5, NA,
+                    "Wide Receiver","Tyreek \nHill", 4.29, 40.5, 13,
+                    "Wide Receiver", "Ja'Marr \nChase", 4.38, 41, 23,
+                    "Wide Receiver", "CeeDee \nLamb", 4.51, 34.5, 11,
+                    "Wide Receiver", "AJ \nBrown", 4.49, 36.5, 19,
+                    "Wide Receiver", "League \nAverage", 4.48, 35.84, 15.21,
+                    "Tight End", "George \nKittle", 4.52, 38.5, 18,
+                    "Tight End", "Travis \nKelce", 4.61, 35, NA,
+                    "Tight End", "Mark \nAndrews", 4.67, 31, 17,
+                    "Tight End", "TJ \nHockenson", 4.7, 37.5, 17,
+                    "Tight End", "Sam \nLaPorta", 4.59, 35, 16,
+                    "Tight End", "League \nAverage", 4.7, 33.47, 21.53, 
+                    "Running Back", "Christian \nMcCaffrey", 4.48, 37.5, 10,
+                    "Running Back", "Derrick \nHenry", 4.54, 37, 22,
+                    "Running Back", "Jonathan \nTaylor", 4.39, 36, 17,
+                    "Running Back", "Nick \nChubb", 4.52, 38.5, 29,
+                    "Running Back","Bijan \nRobinson", 4.46, 37, NA,
+                    "Running Back","League \nAverage", 4.49, 35.1, 20.43)
+```

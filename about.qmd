@@ -1,0 +1,11 @@
+---
+title: "About"
+---
+
+I am Nathan Koshy. I am a rising sophomore at Cherokee Trail High School. I am currently taking Kane's Data Science Bootcamp.
+
+My Email: nathan.koshy\@gmail.com
+
+GitHub Repository: [NathanK56/Project (github.com)](https://github.com/NathanK56/Project)
+
+Course Homepage: [Kane’s Free Data Science Course - Kane’s Data Science Course (davidkane.info)](https://bootcamp.davidkane.info/)

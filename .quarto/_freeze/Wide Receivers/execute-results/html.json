@@ -1,0 +1,17 @@
+{
+  "hash": "ef6ce788b748ba820549f5ad9e5d16ed",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Wide Receivers\"\nexecute:\n  echo: false\n  warning: false\n  message: false\n---\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n::: {.cell-output-display}\n![](Wide-Receivers_files/figure-html/unnamed-chunk-2-1.png){width=672}\n:::\n\n::: {.cell-output-display}\n![](Wide-Receivers_files/figure-html/unnamed-chunk-2-2.png){width=672}\n:::\n\n::: {.cell-output-display}\n![](Wide-Receivers_files/figure-html/unnamed-chunk-2-3.png){width=672}\n:::\n:::\n",
+    "supporting": [
+      "Wide-Receivers_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

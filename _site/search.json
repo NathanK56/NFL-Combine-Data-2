@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "NFL Combine Data",
+    "section": "",
+    "text": "NFL stars typically have better combines than the average among the league. I used data taken from the nflverse dataset, along with wikipedia.org and nflsavant.com. The data was cleaned by finding the specific player and all their data, to compare NFL combines, with x being the player, and y being the value taken at the combine (measured by the measure used by the NFL). The data concluded most NFL stars that I collected data from have had better numbers than the league average in at least two of the three combine drills I used for my data, except safeties. who generally had worse combines than the league average."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "I am Nathan Koshy. I am a rising sophomore at Cherokee Trail High School. I am currently taking Kane’s Data Science Bootcamp.\nMy Email: nathan.koshy@gmail.com\nGitHub Repository: NathanK56/Project (github.com)\nCourse Homepage: Kane’s Free Data Science Course - Kane’s Data Science Course (davidkane.info)"
+  }
+]
